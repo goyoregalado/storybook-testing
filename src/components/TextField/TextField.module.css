@@ -1,0 +1,42 @@
+.inputLabel {
+  display: flex;
+  flex-direction: column;
+
+  & label {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color-gray-1100);
+    font-family: "Roboto", Times, serif;
+    margin-bottom: 16px;
+  }
+
+  & input {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid var(--color-gray-300);
+    font-size: 14px;
+
+    &:focus {
+      outline: 0;
+      box-shadow: 0 0 4px 0 var(--color-gray-800);
+    }
+
+    &:invalid {
+      box-shadow:
+        0 0 0 1px var(--color-red-500),
+        0 0 0 4px var(--color-red-300);
+
+      & + .error {
+        display: block;
+      }
+    }
+  }
+}
+
+.error {
+  color: var(--color-red-500);
+  font-size: 12px;
+  font-family: "Roboto", Times, serif;
+  padding: 0 8px;
+  display: none;
+}

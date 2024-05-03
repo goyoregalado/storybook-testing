@@ -1,0 +1,27 @@
+.base {
+  padding: 4px 8px;
+  font-family: "Roboto", Times, serif;
+  font-size: 14px;
+  display: inline;
+  border-radius: 4px;
+}
+
+.purple {
+  background-color: rgba(145, 98, 192, 8.2%);
+  color: #9162c0;
+}
+
+.green {
+  background-color: rgb(68, 157, 93, 8.2%);
+  color: #449d5d;
+}
+
+.orange {
+  background-color: rgb(209, 119, 36, 8.2%);
+  color: #d17724;
+}
+
+.blue {
+  background-color: rgb(59, 136, 233, 8.2%);
+  color: #3b88e9;
+}
